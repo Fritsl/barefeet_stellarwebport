@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Temp_StellarTEstGame.loader.js";
+      var loaderUrl = buildUrl + "/barefeet_stellarwebport.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Temp_StellarTEstGame.data.gz",
-        frameworkUrl: buildUrl + "/Temp_StellarTEstGame.framework.js.gz",
-        codeUrl: buildUrl + "/Temp_StellarTEstGame.wasm.gz",
+        dataUrl: buildUrl + "/barefeet_stellarwebport.data",
+        frameworkUrl: buildUrl + "/barefeet_stellarwebport.framework.js",
+        codeUrl: buildUrl + "/barefeet_stellarwebport.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "FritsLyneborg",
         productName: "Bare Feet!",
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Temp_StellarTEstGame.jpg') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/barefeet_stellarwebport.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
